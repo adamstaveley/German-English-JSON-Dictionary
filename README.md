@@ -2,10 +2,14 @@
 
 This is a JSON representation of **Mr. Honey's Beginner's Dictionary (German-English)** by *Winfried Honig*. The dictionary is available in various other formats on [Project Gutenberg](http://www.gutenberg.org/ebooks/3212).
 
-You can run `tester.js` to test vocabulary:
+Command line tester:
 ```
-> \c	-- get correct and incorrect words
-> \s	-- get current statistics
+python3 tester.py
+```
+Available commands:
+```
+> \s	-- show current statistics
+> \w	-- show correct and incorrect words
 > \h 	-- show command help
 > \q	-- quit
 ```
